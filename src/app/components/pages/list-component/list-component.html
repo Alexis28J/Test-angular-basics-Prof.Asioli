@@ -1,1 +1,6 @@
-<p>list-component works!</p>
+@for (spell of spells(); track $index) {
+    <div>
+        <span>{{spell.name}}</span>
+        <span>{{spell.level}}</span>
+    </div>
+}
